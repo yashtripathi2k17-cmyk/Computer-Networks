@@ -1,0 +1,424 @@
+******What is the OSI Model?
+
+OSI (Open Systems Interconnection) is a 7-layer reference model that explains how data is transmitted from one computer to another over a network.
+It is called a reference model because it serves as a guideline for designing and understanding network communication.
+
+Interview Definition ⭐
+The OSI Model is a seven-layer framework that standardizes network communication by dividing the communication process into seven different layers, each with a specific responsibility.
+
+****OSI Layers
+7. Application
+6. Presentation
+5. Session
+4. Transport
+3. Network
+2. Data Link
+1. Physical
+
+
+
+******1---Application Layer
+The Application Layer is the layer through which users communicate with the network using applications like web browsers, email clients, and messaging apps.
+The Application Layer is responsible for providing network services to user applications so that users can send and receive data over a network.
+Real-Life Example
+
+When you open:
+
+Chrome
+Gmail
+WhatsApp
+Instagram
+
+You are using the Application Layer.
+
+Responsibilities
+Web browsing
+Email
+File transfer
+Remote login
+Protocols
+HTTP
+HTTPS
+FTP
+SMTP
+DNS
+Interview Answer
+
+The Application Layer provides network services directly to end-user applications.
+
+
+
+2-----Layer 6 — Presentation Layer
+Definition
+This layer changes the format of data so both sender and receiver understand it.
+
+Think of it as a translator.
+Responsibilities
+
+1. Encryption
+Plain Text
+↓
+Encrypted Text
+
+2. Decryption
+Encrypted Text
+↓
+Plain Text
+
+3. Compression
+Large file
+↓
+Small file
+
+4. Translation
+Different data formats
+↓
+Common format
+
+Real-Life Example
+
+HTTPS encrypts your data before sending it.
+
+Interview Answer
+
+The Presentation Layer handles encryption, decryption, compression, and translation of data.
+
+Layer 5 — Session Layer
+Definition
+Creates,
+Maintains,
+Ends communication sessions.
+
+Example
+
+Google Meet
+When you join,
+A session starts.
+When you leave,
+The session ends.
+
+Responsibilities
+Session establishment
+Session maintenance
+Session termination
+Interview Answer
+
+The Session Layer manages communication sessions between two devices.
+
+
+4. Transport Layer (Layer 4) ⭐⭐⭐ (Most Important)
+
+This is one of the most frequently asked interview topics.
+Purpose
+Provides end-to-end communication.
+
+Ensures that data reaches the receiver correctly.
+
+Responsibilities
+Segmentation
+
+Large files are divided into small pieces called segments.
+
+Reassembly
+
+Receiver joins the segments again.
+
+Error Detection
+
+Detects lost or corrupted data.
+
+Flow Control
+
+Prevents a fast sender from overwhelming a slow receiver.
+
+Reliable Delivery
+
+Ensures data arrives correctly (using TCP).
+
+Protocols
+TCP
+
+Reliable
+
+Connection-oriented
+
+Slow
+
+UDP
+
+Fast
+
+Connectionless
+
+No delivery guarantee
+
+
+*******Network Layer (Layer 3) – Short Notes (Placement Revision)
+Definition
+Responsible for routing data from source to destination.
+Uses IP Address to identify devices.
+Finds the best path for data transmission.
+Main Functions
+✅ Logical Addressing (IP Address)
+✅ Routing (Best Path Selection)
+✅ Packet Forwarding
+✅ Packet Delivery (Best-Effort)
+Uses
+Address Used: IP Address
+Device: Router
+Data Unit: Packet
+Layer Number: 3
+Protocols
+IP (Internet Protocol) ⭐
+ICMP
+IGMP
+IPsec
+Important Facts ⭐
+Router works at the Network Layer.
+Uses IP Address (Logical Address).
+Data Unit = Packet.
+Performs Routing.
+IP is Connectionless.
+IP provides Best-Effort Delivery (No guarantee).
+Interview Questions
+
+Q1. What is the main function of the Network Layer?
+
+Routing and logical addressing.
+
+Q2. Which address is used by the Network Layer?
+
+IP Address.
+
+Q3. Which device works at the Network Layer?
+
+Router.
+
+Q4. What is the data unit of the Network Layer?
+
+Packet.
+
+Q5. Which protocol works at the Network Layer?
+
+IP (Internet Protocol).
+
+
+********Data Link Layer (Layer 2) – Easy Notes (Placement)
+What is the Data Link Layer?
+
+The Data Link Layer is responsible for sending data between two devices on the same local network (LAN).
+It uses the MAC Address to identify devices.
+
+Simple Definition ⭐
+The Data Link Layer transfers data between devices on the same network using MAC addresses.
+
+Main Functions
+1. Physical Addressing
+
+Uses MAC Address.
+
+Example:
+
+00:1A:2B:3C:4D:5E
+
+Every network card has a MAC address.
+
+2. Framing
+
+The Data Link Layer converts Packets into Frames.
+
+Network Layer
+Packet
+      ↓
+Data Link Layer
+Frame
+3. Error Detection
+
+Checks if data is corrupted during transmission.
+
+If an error is detected, the receiver knows the frame is damaged.
+
+4. Local Delivery
+
+Delivers data within the same network (LAN).
+
+Important Terms
+MAC Address
+Physical Address
+Usually fixed
+48-bit
+Used inside a LAN
+Frame
+
+Data unit of the Data Link Layer.
+
+Device
+
+Switch
+
+Placement Facts ⭐
+Layer Number = 2
+Address Used = MAC Address
+Device = Switch
+Data Unit = Frame
+Used for communication within the same network (LAN)
+Interview Questions
+Q1. What is the main function of the Data Link Layer?
+
+Answer: It transfers data between devices on the same network using MAC addresses.
+
+Q2. Which address is used?
+
+Answer: MAC Address.
+
+Q3. Which device works here?
+
+Answer: Switch.
+
+Q4. What is the data unit?
+
+Answer: Frame.
+
+
+*******Physical Layer (Layer 1) – Easy Notes
+What is the Physical Layer?
+
+The Physical Layer is the lowest layer of the OSI model.
+It is responsible for actually sending bits (0s and 1s) through cables, optical fiber, or wireless signals.
+
+Simple Definition ⭐
+The Physical Layer transmits raw bits (0s and 1s) over the physical communication medium.
+
+Real-Life Example
+Imagine you are talking to your friend on a phone call.
+Your voice travels through:
+
+Mobile tower
+Radio waves
+Fiber cables
+
+Similarly,
+
+Computers send electrical, optical, or wireless signals through the Physical Layer.
+
+Example
+Laptop
+   │
+LAN Cable
+   │
+Switch
+
+The cable carries only 0s and 1s (bits).
+
+The Physical Layer is responsible for sending these bits.
+
+Main Functions
+1. Transmits Bits
+Sends data as:
+010101010101
+These are called Bits.
+
+2. Defines Transmission Medium
+
+Examples:
+
+LAN Cable
+Optical Fiber
+Wi-Fi Signals
+Radio Waves
+
+3. Signal Conversion
+Converts bits into:
+
+Electrical signals
+Optical signals
+Wireless signals
+
+for transmission.
+
+Devices
+Hub
+Repeater
+Cables
+Fiber Optic
+Data Unit
+
+Bits
+
+Placement Facts ⭐
+Layer Number = 1
+Data Unit = Bits
+Devices = Hub, Repeater
+Works with cables and signals
+Lowest layer of the OSI model
+Interview Questions
+Q1. What is the job of the Physical Layer?
+Answer: It transmits raw bits over the communication medium.
+
+Q2. What is the data unit?
+Answer: Bits.
+
+Q3. Which devices work here?
+Answer: Hub and Repeater.
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+One-Line Revision (Most Important)
+Layer	One-Line Memory Trick
+Application    	User requests a network service.
+Presentation    	Formats and secures the data.
+Session	          Starts, manages, and ends communication.
+Transport           	Delivers data reliably using TCP/UDP.
+Network	              Uses IP addresses to find the best route.
+Data Link              	Uses MAC addresses to deliver data within the same LAN.
+Physical             	Sends bits through cables or Wi-Fi.
+
+
+Address (Must Remember)
+Layer	Address
+Network	IP Address
+Data Link	MAC Address
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+⭐ MCQ Tip:
+A Frame belongs to the Data Link Layer, while a Packet belongs to the Network Layer.
+---------------------------------------------------------
+⭐ Fact 5: Devices and Layers
+Device	Layer
+Hub	Physical
+Repeater	Physical
+Switch	Data Link
+Bridge	Data Link
+Router	Network
+Gateway	Works across all layers
+
+MCQ:
+
+Router works at?
+
+✅ Network Layer
+------------------------------------------------------------------
+Fact 6: Address Used
+Layer	Address
+Transport	Port Number
+Network	IP Address
+Data Link	MAC Address
+
+MCQ:
+
+Which layer uses IP Address?
+
+✅ Network Layer
+----------------------------------------------------------------
+: PDU (Protocol Data Unit)
+Layer	PDU
+Application	Data
+Presentation	Data
+Session	Data
+Transport	Segment (TCP) / Datagram (UDP)
+Network	Packet
+Data Link	Frame
+Physical	Bits
