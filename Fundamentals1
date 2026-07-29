@@ -1,0 +1,585 @@
+Module 1: Networking Fundamentals
+
+
+
+1. Computer Network
+Definition
+A Computer Network is a collection of two or more devices connected together to share data, resources, and services.
+
+Why do we need a Network?
+
+Share files
+Share printers
+Internet access
+Communication (Email, WhatsApp, Video Calls)
+Resource sharing
+Real-Life Example
+
+Your laptop and mobile are connected to the same Wi-Fi and can share files.
+
+Key Points
+Connects multiple devices.
+Can be wired or wireless.
+Uses protocols for communication.
+
+⭐ Interview Answer
+A computer network is a group of interconnected devices that communicate and share data and resources using communication protocols.
+
+Interview Questions
+
+Q1. What is a Computer Network?
+
+Q2. Why do we need Computer Networks?
+
+Q3. Give a real-life example of a Computer Network.
+
+
+
+
+2. Types of Computer Networks
+
+
+****PAN (Personal Area Network)
+Definition
+
+A network covering a very small area around one person.
+
+Range
+
+Up to 10 meters
+
+Examples
+Bluetooth Earbuds
+Smartwatch
+Wireless Keyboard
+
+
+
+*****LAN (Local Area Network)
+Definition
+
+A network covering a small area like a home, office, or school.
+
+Examples
+College Lab
+Office Network
+Home Wi-Fi
+Advantages
+High speed
+Low cost
+
+*****MAN (Metropolitan Area Network)
+Definition
+
+A network covering a city.
+
+Example
+
+City-wide cable TV network.
+
+*****WAN (Wide Area Network)
+Definition
+
+A network covering countries or the entire world.
+
+Example
+
+Internet
+
+Memory Trick
+PAN → Personal
+
+LAN → Local
+
+MAN → Metropolitan (City)
+
+WAN → Worldwide
+⭐ Interview Answer
+
+PAN connects personal devices, LAN connects devices within a small area, MAN covers a city, and WAN connects devices over very large distances. The Internet is the best example of a WAN.
+
+Interview Questions
+What are the types of networks?
+Difference between LAN and WAN?
+Which network is used in a college?
+Which network covers the whole world?
+
+
+3. Internet
+Definition
+
+The Internet is a global network that connects millions of devices around the world.
+
+Uses
+Browsing
+Online Banking
+Social Media
+Video Calls
+Emails
+⭐ Interview Answer
+The Internet is a worldwide network of interconnected computers that allows users to communicate and exchange information.
+
+Interview Questions
+What is the Internet?
+Why is the Internet called a network of networks?
+
+
+
+4. Intranet
+Definition
+An Intranet is a private network used within an organization.
+
+Example
+
+Employee Portal
+
+College ERP
+
+Company Internal Website
+
+Key Point
+
+Only authorized users can access it.
+
+Interview Question
+What is an Intranet?
+
+
+5. Extranet
+Definition
+An Extranet is a private network that allows limited access to external users such as customers, vendors, or suppliers.
+
+Example
+
+Supplier accessing a company's order management system.
+
+Interview Question
+What is an Extranet?
+
+6. Internet vs Intranet vs Extranet
+Internet	Intranet	Extranet
+Public	Private	   Private + Limited External Access
+Anyone can use	Employees only	Employees + Authorized outsiders
+Example: Google	Company Portal	Supplier Portal
+⭐ Interview Question
+
+Differentiate between Internet, Intranet, and Extranet.
+
+7. Client-Server Architecture
+Definition
+In Client-Server Architecture,
+
+Client sends a request.
+Server processes the request.
+Server sends the response.
+Real-Life Example
+Open YouTube
+
+↓
+
+Browser sends request
+
+↓
+
+YouTube Server
+
+↓
+
+Server sends video
+
+↓
+
+You watch the video
+Examples
+
+Client
+
+Chrome
+Mobile App
+Laptop
+
+Server
+
+Google Server
+Netflix Server
+Amazon Server
+Key Points
+Client requests services.
+Server provides services.
+Most websites use this architecture.
+⭐ Interview Answer
+
+In Client-Server Architecture, the client requests a service, and the server processes the request and returns the response.
+
+Interview Questions
+What is Client-Server Architecture?
+Give a real-life example.
+What is the role of a server?
+8. Peer-to-Peer (P2P)
+Definition
+
+In Peer-to-Peer Architecture, every computer can act as both a client and a server.
+
+There is no central server.
+
+Example
+
+Torrent File Sharing
+
+Key Points
+No central server.
+Direct communication.
+Suitable for small networks.
+⭐ Interview Answer
+
+In Peer-to-Peer Architecture, all computers communicate directly with each other without a central server.
+
+Interview Questions
+What is Peer-to-Peer Architecture?
+Give one example of P2P.
+9. Client-Server vs Peer-to-Peer
+Client-Server	Peer-to-Peer
+Central server	No central server
+More secure	Less secure
+Easy to manage	Hard to manage
+Used by websites	Used for file sharing
+Interview Question
+
+Differentiate between Client-Server and Peer-to-Peer Architecture.
+
+⭐ Frequently Asked Interview Questions (Top 10)
+What is a Computer Network?
+Why do we need Computer Networks?
+What are the different types of networks?
+Difference between LAN and WAN?
+What is the Internet?
+Difference between Internet, Intranet, and Extranet?
+What is Client-Server Architecture?
+What is Peer-to-Peer Architecture?
+Difference between Client-Server and Peer-to-Peer?
+Give a real-life example of a Computer Network.
+
+
+
+📝 One-Page Revision
+Computer Network: Connected devices that share data and resources.
+PAN: Personal devices (Bluetooth, smartwatch).
+LAN: Home, office, school.
+MAN: City-wide network.
+WAN: Worldwide network (Internet).
+Internet: Public network.
+Intranet: Private organization network.
+Extranet: Private network with limited access for outsiders.
+Client: Requests data.
+Server: Provides data.
+Peer-to-Peer: Devices communicate directly without a central server.
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. What is Data Communication?
+Definition
+
+Data Communication is the process of transferring data between two or more devices through a communication medium.
+Simple Example
+
+You send "Hi" to your friend on WhatsApp.
+
+Your phone ➜ Internet ➜ Friend's phone
+
+This is data communication.
+
+Why do we need it?
+
+Without data communication:
+
+❌ No WhatsApp
+❌ No Email
+❌ No YouTube
+❌ No Google
+Key Points
+Transfers data between devices.
+Uses communication protocols.
+Can be wired or wireless.
+⭐ Interview Answer
+
+Data communication is the process of exchanging data between two or more devices using a communication medium and communication protocols.
+
+Interview Questions
+What is Data Communication?
+Give a real-life example of Data Communication.
+
+
+2. Components of Data Communication
+There are 5 basic components.
+
+Sender → Medium → Receiver
+       ↘ Protocol ↙
+      Message
+
+
+***A. Sender
+Definition
+The device that sends the data.
+
+Example
+Laptop
+Mobile
+Computer
+
+
+B. Receiver
+Definition
+The device that receives the data.
+
+Example
+
+Your friend's phone.
+
+C. Message
+Definition
+The information being sent.
+
+Example
+Text
+Image
+Video
+Audio
+Document
+
+
+D. Transmission Medium
+Definition
+The path through which data travels.
+
+Types
+Wired
+Ethernet Cable
+Optical Fiber
+
+Wireless
+Wi-Fi
+Bluetooth
+Mobile Network
+
+E. Protocol
+Definition
+A protocol is a set of rules that devices follow while communicating.
+Without protocols, devices cannot understand each other.
+
+Examples
+HTTP
+HTTPS
+TCP
+UDP
+FTP
+Easy Example
+Imagine two people speaking.
+
+If one speaks English and the other speaks Japanese, they won't understand each other.
+
+Similarly, computers need common rules (protocols) to communicate.
+
+⭐ Interview Answer
+
+The five components of data communication are Sender, Receiver, Message, Transmission Medium, and Protocol.
+
+Interview Questions
+What are the components of Data Communication?
+What is a Protocol?
+Why are Protocols important?
+
+
+3. Data Flow
+Data can flow in three ways.
+
+A. Simplex
+Definition
+Data moves in only one direction.
+
+Example
+
+TV Broadcast
+
+TV Station
+      ↓
+ Television
+The TV receives signals but cannot send data back.
+
+B. Half Duplex
+
+Definition
+Both devices can send and receive data, but not at the same time.
+
+Example
+Walkie-Talkie
+Person A → Person B
+
+(Wait)
+
+Person B → Person A
+
+Only one person talks at a time.
+
+C. Full Duplex
+Definition
+Both devices can send and receive data simultaneously.
+
+Example
+Phone Call
+
+Both people can speak and hear at the same time.
+
+Easy Trick
+Mode	Communication
+Simplex	One Way
+Half Duplex	Two Way, One at a Time
+Full Duplex	Two Way, Same Time
+
+
+
+⭐ Interview Answer
+Simplex allows one-way communication, Half Duplex allows two-way communication but only one device transmits at a time, and Full Duplex allows both devices to communicate simultaneously.
+
+Interview Questions
+Explain Simplex, Half Duplex, and Full Duplex.
+Give one example of each.
+
+
+
+4. Bandwidth
+Definition
+Bandwidth is the maximum amount of data that can be transmitted through a network in one second.
+
+Unit
+bps (bits per second)
+Mbps
+Gbps
+Example
+
+A 100 Mbps internet connection means the network can transfer up to 100 million bits per second under ideal conditions.
+
+Bandwidth is the capacity of the network.
+⭐ Interview Answer
+Bandwidth is the maximum capacity of a network to transfer data in a given amount of time.
+
+Interview Questions
+What is Bandwidth?
+What is the unit of Bandwidth?
+
+5. Throughput
+Definition
+Throughput is the actual amount of data successfully transferred over the network.
+
+Example
+Suppose your internet plan is 100 Mbps, but because of network traffic you actually receive 80 Mbps.
+
+Bandwidth = 100 Mbps
+Throughput = 80 Mbps
+Easy Analogy
+Highway capacity = 6 lanes (Bandwidth)
+
+Traffic due to congestion = Cars move through only 4 lanes effectively (Throughput)
+
+⭐ Interview Answer
+Throughput is the actual data transfer rate achieved over a network.
+
+Interview Questions
+What is Throughput?
+Difference between Bandwidth and Throughput?
+
+
+6. Bandwidth vs Throughput
+
+Bandwidth  	Throughput
+Maximum capacity	Actual speed achieved
+Theoretical value	Practical value
+Usually higher	Usually lower or equal
+
+7. Latency
+Definition
+Latency is the time taken by data to travel from the sender to the receiver.
+
+Unit
+Milliseconds (ms)
+
+Example
+When playing an online game, if your ping is 20 ms, your commands reach the game server in about 20 milliseconds.
+Lower latency means faster response.
+Easy Analogy
+
+Think of sending a courier.
+The time it takes to reach the destination is like latency.
+⭐ Interview Answer
+Latency is the delay between sending data and receiving it.
+
+Interview Questions
+What is Latency?
+Why is low latency important for gaming and video calls?
+
+
+8. Packet
+Definition
+Large data is divided into small pieces called packets before being sent over a network.
+
+Example
+A 100 MB file is broken into many packets.
+
+Each packet travels through the network and is reassembled at the destination.
+
+Why Packetization?
+Faster transmission
+Easier error recovery
+Efficient use of the network
+Interview Questions
+What is a Packet?
+Why is data divided into packets?
+
+
+9. Frame
+Definition
+A Frame is a packet with additional information (such as source and destination MAC addresses) added by the Data Link Layer for communication within a local network.
+Simple way to remember: Packet + Data Link Layer information = Frame
+
+Packet vs Frame
+Packet	Frame
+Created by Network Layer	Created by Data Link Layer
+Uses IP Address	Uses MAC Address
+
+
+
+Interview Questions
+What is a Frame?
+Difference between Packet and Frame?
+⭐ Most Asked Interview Questions
+What is Data Communication?
+What are the five components of Data Communication?
+What is a Protocol?
+Explain Simplex, Half Duplex, and Full Duplex.
+What is Bandwidth?
+Difference between Bandwidth and Throughput?
+What is Latency?
+What is a Packet?
+What is a Frame?
+Difference between Packet and Frame?
+
+
+
+📌 Quick Revision
+Data Communication: Exchange of data between devices.
+Components: Sender, Receiver, Message, Transmission Medium, Protocol.
+Simplex: One-way communication (TV).
+Half Duplex: Two-way, one at a time (Walkie-Talkie).
+Full Duplex: Two-way, simultaneous (Phone Call).
+Bandwidth: Maximum network capacity.
+Throughput: Actual data transferred.
+Latency: Time delay in data transfer.
+Packet: Small unit of data sent over the network.
+Frame: Packet plus Data Link Layer information (uses MAC addresses).
