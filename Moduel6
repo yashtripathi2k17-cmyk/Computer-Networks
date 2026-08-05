@@ -1,0 +1,1497 @@
+1. What is TCP/IP Model?
+Definition
+
+The TCP/IP Model is a 4-layer networking model that explains how data travels from one device to another over the Internet.
+
+Simple Definition
+
+TCP/IP is the set of rules that allows computers to communicate over the Internet.
+
+Why do we need TCP/IP?
+
+Without TCP/IP:
+
+❌ No Google
+❌ No WhatsApp
+❌ No YouTube
+❌ No Online Banking
+
+It is the foundation of the Internet.
+
+Real-Life Example
+
+Suppose you search "www.google.com".
+
+Your request goes through the TCP/IP layers:
+
+You
+↓
+
+Application Layer
+
+↓
+
+Transport Layer
+
+↓
+
+Internet Layer
+
+↓
+
+Network Access Layer
+
+↓
+
+Internet
+
+↓
+
+Google Server
+
+Google sends the response back using the same layers in reverse order.
+2. TCP/IP Layers
+
+TCP/IP has 4 layers.
+
+Application Layer
+↓
+
+Transport Layer
+↓
+
+Internet Layer
+↓
+
+Network Access Layer
+3. Application Layer
+Definition
+
+This is the top layer where users interact with the network.
+
+Simple Meaning
+
+Whenever you use an app that needs the Internet, you are using the Application Layer.
+
+Examples
+Google Chrome
+WhatsApp
+Gmail
+YouTube
+Instagram
+Protocols
+HTTP
+HTTPS
+FTP
+SMTP
+DNS
+Main Work
+Provides services to users.
+Starts communication.
+Interview Answer
+
+The Application Layer provides network services directly to user applications like browsers and email clients.
+
+4. Transport Layer
+Definition
+
+The Transport Layer ensures that data reaches the correct destination.
+
+Simple Meaning
+
+Think of it as a delivery company.
+
+It makes sure your parcel reaches the correct address.
+
+Main Work
+End-to-end communication
+Reliable delivery
+Error checking
+Data segmentation
+Protocols
+TCP
+
+Reliable
+
+Used for:
+
+Banking
+Email
+File Transfer
+UDP
+
+Fast
+
+Used for:
+
+Gaming
+Video Calls
+Live Streaming
+Interview Answer
+
+The Transport Layer provides end-to-end communication using TCP or UDP.
+
+5. Internet Layer
+Definition
+
+The Internet Layer finds the best path for data.
+
+Simple Meaning
+
+Imagine you're going from Jaipur to Delhi.
+
+Google Maps finds the best route.
+
+Similarly, the Internet Layer finds the best route for data packets.
+
+Main Work
+Routing
+IP Addressing
+Protocol
+IP
+Device
+Router
+Interview Answer
+
+The Internet Layer handles routing and uses IP addresses to send data between different networks.
+
+6. Network Access Layer
+Definition
+
+This layer sends data through the actual network medium.
+
+Simple Meaning
+
+It is responsible for physically sending and receiving data.
+
+Examples
+Ethernet Cable
+Wi-Fi
+Optical Fiber
+Main Work
+Physical transmission of data
+Uses MAC Address
+Interview Answer
+
+The Network Access Layer sends and receives data over the physical network using technologies like Ethernet and Wi-Fi.
+
+7. Data Flow in TCP/IP
+
+Suppose you open www.youtube.com
+
+Step 1: Application Layer
+
+You type the website address.
+
+↓
+
+Step 2: Transport Layer
+
+TCP divides the data and ensures reliable delivery.
+
+↓
+
+Step 3: Internet Layer
+
+IP finds the best route to YouTube's server.
+
+↓
+
+Step 4: Network Access Layer
+
+Data travels through Wi-Fi or Ethernet.
+
+↓
+
+Internet
+
+↓
+
+YouTube Server
+
+The response comes back using the same layers in reverse.
+
+8. OSI vs TCP/IP
+OSI Model	TCP/IP Model
+7 Layers	4 Layers
+Reference Model	Practical Model
+Mainly for learning	Used on the Internet
+Layer Mapping
+OSI	TCP/IP
+Application + Presentation + Session	Application
+Transport	Transport
+Network	Internet
+Data Link + Physical	Network Access
+9. Why is TCP/IP More Popular?
+Simpler (4 layers)
+Faster to understand
+Used on the Internet
+Supported by all modern operating systems
+⭐ Most Asked Interview Questions
+Basic
+
+Q1. What is the TCP/IP Model?
+
+The TCP/IP Model is a 4-layer networking model used for communication over the Internet.
+
+Q2. How many layers are in the TCP/IP Model?
+
+✅ 4 Layers
+
+Q3. Name the four layers.
+
+Application
+Transport
+Internet
+Network Access
+
+Q4. Which layer interacts with the user?
+
+✅ Application Layer
+
+Q5. Which layer uses TCP and UDP?
+
+✅ Transport Layer
+
+Q6. Which layer uses IP Address?
+
+✅ Internet Layer
+
+Q7. Which layer sends data through Wi-Fi or Ethernet?
+
+✅ Network Access Layer
+
+Q8. Which model is actually used on the Internet?
+
+✅ TCP/IP Model
+
+Q9. Why is TCP/IP preferred over OSI?
+
+Because it is simpler and is the practical model used for Internet communication.
+
+⭐ Online Assessment Facts
+Number of Layers
+OSI → 7
+TCP/IP → 4
+Layer Order
+Application
+
+↓
+
+Transport
+
+↓
+
+Internet
+
+↓
+
+Network Access
+Protocols
+Protocol	Layer
+HTTP	Application
+HTTPS	Application
+FTP	Application
+DNS	Application
+TCP	Transport
+UDP	Transport
+IP	Internet
+Devices
+Device	Layer
+Router	Internet
+Switch	Network Access (LAN communication)
+-------------------------------------------------------------
+
+
+1. What is an IP Address?
+Definition
+
+IP (Internet Protocol) Address is a unique number given to every device connected to a network.
+
+Simple Definition
+An IP Address is the address of a device on a network.
+
+Just like your house has an address,
+
+Every computer/mobile also has an address.
+
+That address is called an IP Address.
+
+Real-Life Example
+
+Suppose you order food from Zomato.
+
+The delivery boy needs your home address.
+
+Without your address,
+he cannot deliver the food.
+
+Similarly,
+
+When Google sends data,
+it needs your device's address.
+That address is called the IP Address.
+
+Example
+Laptop
+IP = 192.168.1.5
+
+Mobile
+IP = 192.168.1.6
+
+Printer
+IP = 192.168.1.10
+
+Every device has a different IP.
+
+Why do we need an IP Address?
+
+Without an IP Address,
+
+Google won't know where to send data.
+WhatsApp messages won't reach you.
+YouTube videos won't load.
+⭐ Interview Answer
+An IP Address is a unique logical address assigned to every device on a network. It helps identify devices and enables communication over a network.
+
+2. Types of IP Address
+
+There are 2 versions.
+
+IPv4
+IPv6
+
+3. IPv4
+Definition
+IPv4 is the older and most commonly used version of IP.
+
+Structure
+
+IPv4 contains 32 bits.
+It is divided into 4 parts (octets).
+
+Example
+
+192.168.10.5
+
+Each part ranges from:
+
+0 – 255
+Example
+192
+
+168
+
+1
+
+10
+
+These are called Octets.
+
+Why only 0–255?
+
+Each octet contains 8 bits.
+
+Maximum value of 8 bits
+
+11111111
+
+↓
+
+255
+Interview Question
+
+How many bits are there in IPv4?
+
+Answer
+32 bits
+
+4. IPv6
+Definition
+
+IPv6 is the new version of IP.
+
+Why was IPv6 introduced?
+
+Because IPv4 addresses were running out.
+
+The number of Internet users became very large.
+
+So a bigger address space was needed.
+
+Structure
+
+IPv6 contains
+
+128 bits
+
+Example
+
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+Don't memorize the format.
+
+Just remember
+
+128 bits
+
+Interview Questions
+
+Why was IPv6 introduced?
+
+Because IPv4 addresses are limited.
+
+Difference between IPv4 and IPv6?
+
+IPv4	IPv6
+32 bits	128 bits
+Older	Newer
+Limited addresses	Huge number of addresses
+5. Public IP Address
+Definition
+
+A Public IP Address is visible on the Internet.
+
+It is assigned by your Internet Service Provider (ISP).
+
+Example
+
+Your Wi-Fi router has one Public IP.
+
+Everyone on the Internet can communicate with it (subject to networking rules).
+
+6. Private IP Address
+Definition
+
+A Private IP Address is used inside a local network.
+
+It cannot be directly reached from the Internet.
+
+Example
+
+Home Wi-Fi
+
+Phone
+
+192.168.1.2
+
+Laptop
+
+192.168.1.5
+
+TV
+
+192.168.1.7
+
+All are private IPs.
+
+The router has one Public IP.
+
+Private IP Ranges
+
+Don't memorize everything initially.
+
+Just remember:
+
+192.168.x.x
+
+10.x.x.x
+
+172.16.x.x – 172.31.x.x
+Interview Question
+
+Difference between Public and Private IP?
+
+Public IP	Private IP
+Visible on Internet	Used inside local network
+Assigned by ISP	Assigned by router
+Globally unique	Can be reused in different networks
+7. Static IP Address
+Definition
+
+A Static IP never changes.
+
+Example
+
+Company Server
+
+192.168.1.10
+
+Always remains the same.
+
+Uses
+Servers
+CCTV
+Printers
+8. Dynamic IP Address
+Definition
+
+A Dynamic IP changes automatically.
+
+It is assigned by DHCP.
+
+Example
+
+Your phone connects to Wi-Fi.
+
+Today
+
+192.168.1.4
+
+Tomorrow
+
+192.168.1.8
+
+The IP may change.
+
+Uses
+Home Wi-Fi
+Mobile phones
+Laptops
+Interview Question
+
+Static vs Dynamic IP?
+
+Static	Dynamic
+Fixed	Changes automatically
+Manual configuration	Assigned automatically (DHCP)
+Used for servers	Used for home users
+9. Loopback Address
+Definition
+
+Used to test whether your own computer's networking software is working.
+
+IPv4 Loopback
+127.0.0.1
+Easy Meaning
+
+Your computer sends data to itself.
+
+Interview Question
+
+What is 127.0.0.1?
+
+Answer
+
+Loopback Address.
+
+10. Logical Address
+
+Another name for
+
+IP Address
+
+11. Physical Address
+
+Another name for
+
+MAC Address
+
+Easy Trick
+Logical Address
+
+↓
+
+IP Address
+
+Physical Address
+
+↓
+
+MAC Address
+12. IP Address vs MAC Address ⭐⭐⭐⭐⭐
+IP Address	MAC Address
+Logical Address	Physical Address
+Can change	Usually fixed
+Used by Router	Used by Switch
+Network Layer	Data Link Layer
+13. Broadcast Address (Basic)
+Definition
+
+A Broadcast Address is used to send data to all devices in the same network.
+
+Example:
+
+Teacher announces,
+
+"Everyone submit your assignment."
+
+Every student hears it.
+
+Similarly,
+
+Broadcast sends the same data to all devices on the local network.
+
+14. Default Gateway
+Definition
+
+The Default Gateway is usually your Router.
+
+Whenever your computer wants to communicate outside the local network,
+
+it first sends the data to the default gateway.
+
+Example
+
+You want to open Google.
+
+Laptop
+
+↓
+
+Router (Default Gateway)
+
+↓
+
+Internet
+
+↓
+
+Google
+15. DNS (Connection with IP)
+
+Humans remember
+
+www.google.com
+
+Computers understand
+
+142.250.xx.xx
+
+DNS converts
+
+Domain Name
+
+↓
+
+IP Address
+⭐ Most Asked Interview Questions
+Basic
+What is an IP Address?
+Why do we need an IP Address?
+What are IPv4 and IPv6?
+Difference between IPv4 and IPv6?
+How many bits are in IPv4?
+How many bits are in IPv6?
+What is a Public IP?
+What is a Private IP?
+Static IP vs Dynamic IP?
+What is a Loopback Address?
+What is the IP address of localhost?
+What is the Default Gateway?
+Difference between IP Address and MAC Address?
+⭐ Online Assessment Facts
+Easy Facts
+IPv4 = 32 bits
+IPv6 = 128 bits
+IPv4 has 4 octets
+Each octet = 8 bits
+Range of each octet = 0–255
+Loopback Address = 127.0.0.1
+Logical Address = IP Address
+Physical Address = MAC Address
+Router uses IP Address
+Switch uses MAC Address
+Default Gateway = Router
+Private IP Ranges
+10.x.x.x
+
+172.16.x.x – 172.31.x.x
+
+192.168.x.x
+📝 One-Page Revision
+IP Address: Unique logical address of a device.
+IPv4: 32 bits, 4 octets.
+IPv6: 128 bits, created because IPv4 addresses are limited.
+Public IP: Used on the Internet, assigned by ISP.
+Private IP: Used inside a local network.
+Static IP: Fixed.
+Dynamic IP: Changes automatically (assigned by DHCP).
+Loopback Address: 127.0.0.1.
+Default Gateway: Usually the router.
+IP Address = Logical Address.
+MAC Address = Physical Address.
+DNS: Converts domain names into IP addresses.
+🎯 Memory Tricks
+Remember IPv4 vs IPv6
+IPv4 → 4 parts → 32 bits
+IPv6 → 128 bits → More addresses
+Remember Router vs Switch
+Router → IP Address → Connects Networks
+Switch → MAC Address → Connects Devices in a LAN
+Remember Address Types
+Logical Address = IP
+Physical Address = MAC
+
+
+--------------------------------------
+1. What is a MAC Address?
+Definition
+
+A MAC (Media Access Control) Address is a hardware address used to identify a network interface on a local network.
+
+Simple Meaning
+
+IP tells where the device is on a network; MAC helps identify the network interface locally.
+
+Example MAC:
+
+00:1A:2B:3C:4D:5E
+Important Points
+MAC = Media Access Control
+Typically 48 bits
+Written in hexadecimal
+Used mainly at Data Link Layer (Layer 2)
+Switches use MAC addresses to forward Ethernet frames.
+2. IP Address vs MAC Address ⭐⭐⭐⭐⭐
+
+Think about sending a courier:
+
+IP Address → Where to send
+MAC Address → Local interface/device identification for the next local delivery
+IP Address	MAC Address
+Logical address	Hardware/link-layer address
+Can change	Usually tied to network interface, though it can be changed/spoofed
+Network Layer	Data Link Layer
+Router uses IP for routing	Switch uses MAC for forwarding
+IPv4 = 32 bits	Common Ethernet MAC = 48 bits
+Interview Answer
+
+An IP address is a logical address used for communication across networks, while a MAC address is a link-layer address used for communication on the local network.
+
+3. What is ARP? ⭐⭐⭐⭐⭐
+
+ARP = Address Resolution Protocol
+
+Main Work
+
+ARP finds the MAC address associated with an IPv4 address on the local network.
+
+IP Address
+     ↓
+    ARP
+     ↓
+MAC Address
+Example
+
+Your laptop wants to send data to:
+
+IP = 192.168.1.5
+
+But Ethernet needs a destination MAC address.
+
+So it asks:
+
+"Who has 192.168.1.5?"
+
+The device replies with its MAC address.
+
+ARP Process
+Sender
+  ↓
+ARP Request
+"Who has this IP?"
+  ↓
+Device replies
+"That's me; here's my MAC."
+  ↓
+Sender stores result
+  ↓
+Data sent
+
+The mapping can be stored temporarily in the ARP cache/table.
+
+⭐ Remember
+
+ARP: IPv4 address → MAC address
+
+What is Transport Layer?
+Simple Definition
+
+The Transport Layer makes sure your data reaches the correct destination.
+
+Real-Life Example
+
+Suppose you order a phone from Amazon.
+
+Amazon packs it.
+
+Delivery company delivers it.
+
+Similarly,
+
+Transport Layer delivers your data.
+
+Main Work
+End-to-End Communication
+Reliable Delivery
+Error Checking
+TCP
+
+TCP = Transmission Control Protocol
+
+Simple Definition
+
+TCP checks whether all data has reached safely.
+
+If something is missing,
+
+it sends it again.
+
+Example
+
+Imagine sending
+
+100 photos.
+
+If Photo No. 20 is missing,
+
+TCP sends Photo 20 again.
+
+So nothing is lost.
+
+Uses
+Banking
+Gmail
+Online Shopping
+File Download
+Main Points
+Reliable
+Slow
+Connection-Oriented
+Uses ACK
+UDP
+
+UDP = User Datagram Protocol
+
+Simple Definition
+
+UDP sends data quickly.
+
+It doesn't check whether data reaches or not.
+
+Example
+
+Video Call
+
+If one video frame is lost,
+
+the call continues.
+
+No one notices.
+
+Uses
+Gaming
+Video Call
+Live Streaming
+DNS
+Main Points
+Fast
+Connectionless
+No ACK
+No Guarantee
+TCP vs UDP
+TCP	UDP
+Reliable	Fast
+Slow	Fast
+Uses ACK	No ACK
+Banking	Gaming
+Three-Way Handshake
+
+Before TCP sends data,
+
+both computers first say
+
+"I'm ready."
+
+Step 1
+
+Client
+
+↓
+
+SYN
+
+"I want to connect."
+
+Step 2
+
+Server
+
+↓
+
+SYN + ACK
+
+"Okay, I'm ready."
+
+Step 3
+
+Client
+
+↓
+
+ACK
+
+"I'm also ready."
+
+Connection starts.
+
+Easy Trick
+
+Remember only
+
+SYN
+
+↓
+
+SYN + ACK
+
+↓
+
+ACK
+Interview Question
+
+Why is TCP reliable?
+
+Answer
+
+Because it checks whether data reaches correctly and retransmits missing data if required.
+
+📝 Module 9 Revision
+Transport Layer = End-to-End Communication
+TCP = Reliable
+UDP = Fast
+TCP uses ACK
+Handshake = SYN → SYN+ACK → ACK
+---------------------------------------------------------------------------------
+1. HTTP (HyperText Transfer Protocol)
+Simple Definition
+
+HTTP is a protocol used to open websites and transfer web pages between your browser and a web server.
+
+Real-Life Example
+
+You open:
+
+www.google.com
+
+Your browser sends an HTTP request, and Google sends back the webpage.
+
+Port Number
+
+80
+
+Interview Definition
+
+HTTP is an application layer protocol used to transfer web pages and data between a client (browser) and a web server.
+
+2. HTTPS (HyperText Transfer Protocol Secure)
+Simple Definition
+
+HTTPS is the secure version of HTTP. It encrypts data so that hackers cannot easily read it.
+
+Real-Life Example
+
+When you log in to:
+
+Gmail
+Amazon
+Online Banking
+
+HTTPS keeps your password and personal information secure.
+
+Port Number
+
+443
+
+Interview Definition
+
+HTTPS is a secure version of HTTP that uses encryption (TLS/SSL) to protect data exchanged between the client and the server.
+
+3. FTP (File Transfer Protocol)
+Simple Definition
+
+FTP is used to upload and download files between a computer and a server.
+
+Real-Life Example
+
+A web developer uploads website files from their computer to a hosting server.
+
+Port Number
+
+21
+
+Interview Definition
+
+FTP is an application layer protocol used to transfer files between a client and a server.
+
+4. TCP (Transmission Control Protocol)
+Simple Definition
+
+TCP makes sure that all data reaches the destination correctly and in the right order.
+
+Real-Life Example
+
+When you transfer money using online banking, you cannot lose any data. TCP ensures reliable delivery.
+
+Used For
+Banking
+Email
+File Downloads
+Online Shopping
+Interview Definition
+
+TCP is a reliable, connection-oriented transport layer protocol that ensures data is delivered correctly and in the correct order.
+
+5. UDP (User Datagram Protocol)
+Simple Definition
+
+UDP sends data quickly without checking whether every packet reaches the destination.
+
+Real-Life Example
+
+During a video call, if one video frame is lost, the call continues instead of waiting for that frame.
+
+Used For
+Video Calls
+Online Games
+Live Streaming
+DNS
+Interview Definition
+
+UDP is a fast, connectionless transport layer protocol that sends data without guaranteeing delivery.
+
+6. IP (Internet Protocol)
+Simple Definition
+
+IP helps data travel from one network to another using IP addresses.
+
+Real-Life Example
+
+Google Maps finds the best route to a destination.
+
+Similarly, IP helps data find the route to another device.
+
+Interview Definition
+
+IP is a network layer protocol responsible for addressing and routing packets between networks.
+
+7. DNS (Domain Name System)
+Simple Definition
+
+DNS converts a website name into an IP address.
+
+Real-Life Example
+
+Instead of remembering:
+
+142.250.xxx.xxx
+
+You simply type:
+
+google.com
+
+DNS converts the name into the corresponding IP address.
+
+Port Number
+
+53
+
+Interview Definition
+
+DNS is an application layer protocol that translates domain names into IP addresses.
+
+8. DHCP (Dynamic Host Configuration Protocol)
+Simple Definition
+
+DHCP automatically gives a device an IP address and other network settings when it joins a network.
+
+Real-Life Example
+
+You connect your phone to Wi-Fi.
+
+Your phone immediately gets an IP address automatically.
+
+Interview Definition
+
+DHCP is an application layer protocol that automatically assigns IP addresses and other network configuration information to devices.
+
+9. SMTP (Simple Mail Transfer Protocol)
+Simple Definition
+
+SMTP is used to send emails.
+
+Real-Life Example
+
+When you send an email from Gmail, SMTP is involved in sending it.
+
+Port Number
+
+25
+
+Interview Definition
+
+SMTP is an application layer protocol used to send emails from a client to a mail server and between mail servers.
+
+10. POP3 (Post Office Protocol Version 3)
+Simple Definition
+
+POP3 is used to receive emails.
+
+Real-Life Example
+
+Your email app downloads emails from the mail server to your device.
+
+Port Number
+
+110
+
+Interview Definition
+
+POP3 is an application layer protocol used to retrieve emails from a mail server.
+
+11. IMAP (Internet Message Access Protocol)
+Simple Definition
+
+IMAP is also used to receive emails, but it keeps emails synchronized across multiple devices.
+
+Real-Life Example
+
+You read an email on your phone.
+
+When you open Gmail on your laptop, it already shows that email as read.
+
+Port Number
+
+143
+
+Interview Definition
+
+IMAP is an application layer protocol used to access and synchronize emails stored on a mail server.
+
+12. SSH (Secure Shell)
+Simple Definition
+
+SSH allows you to securely control another computer over a network.
+
+Real-Life Example
+
+A software engineer remotely logs into a Linux server to manage it.
+
+Port Number
+
+22
+
+Interview Definition
+
+SSH is an application layer protocol used for secure remote login and administration of computers.
+
+13. Telnet
+Simple Definition
+
+Telnet is used to remotely access another computer, but it does not encrypt the data.
+
+Real-Life Example
+
+Older systems used Telnet to connect to remote computers.
+
+Today, SSH is preferred because it is secure.
+
+Port Number
+
+23
+
+Interview Definition
+
+Telnet is an application layer protocol used for remote login, but it is insecure because it sends data without encryption.
+
+14. ARP (Address Resolution Protocol)
+Simple Definition
+
+ARP finds the MAC address when the IP address is already known.
+
+Real-Life Example
+
+Your laptop knows the IP address of another device on the same Wi-Fi.
+
+ARP asks:
+
+"Who has this IP address?"
+
+The device replies with its MAC address.
+
+Interview Definition
+
+ARP is a protocol that maps an IPv4 address to a MAC address within a local network.
+
+15. ICMP (Internet Control Message Protocol)
+Simple Definition
+
+ICMP is used to check network connectivity and report errors.
+
+Real-Life Example
+
+When you run the ping command, it uses ICMP to check whether another device is reachable.
+
+Interview Definition
+
+ICMP is a network layer protocol used for error reporting and network diagnostics, such as the ping command.
+
+⭐ Quick Revision Table
+Protocol	Full Form	Main Work	Port
+HTTP	HyperText Transfer Protocol	Open websites	80
+HTTPS	HyperText Transfer Protocol Secure	Secure websites	443
+FTP	File Transfer Protocol	File transfer	21
+TCP	Transmission Control Protocol	Reliable data transfer	—
+UDP	User Datagram Protocol	Fast data transfer	—
+IP	Internet Protocol	Routing & addressing	—
+DNS	Domain Name System	Domain → IP	53
+DHCP	Dynamic Host Configuration Protocol	Assign IP automatically	—
+SMTP	Simple Mail Transfer Protocol	Send emails	25
+POP3	Post Office Protocol v3	Receive emails	110
+IMAP	Internet Message Access Protocol	Sync emails	143
+SSH	Secure Shell	Secure remote login	22
+Telnet	Telecommunication Network	Remote login (not secure)	23
+ARP	Address Resolution Protocol	IP → MAC	—
+ICMP	Internet Control Message Protocol	Error reporting & Ping	—
+🎯 Easy Memory Tricks
+HTTP → Open Website
+HTTPS → Secure Website
+FTP → File Transfer
+TCP → Trustworthy (Reliable)
+UDP → Urgent (Fast)
+DNS → Name → IP
+DHCP → Gives IP Automatically
+SMTP → Send Mail
+POP3 → Pull Mail (Download)
+IMAP → Internet Mail Sync
+SSH → Secure Remote Login
+Telnet → Remote Login (Not Secure)
+ARP → IP → MAC
+ICMP → Ping & Error Messages
+----------------------------------------------------------------
+Module 11: HTTP Deep Dive (Placement Notes)
+
+⭐ Interview Importance: ⭐⭐⭐⭐☆
+
+What is HTTP?
+
+HTTP (HyperText Transfer Protocol) is a protocol used to open websites and transfer web pages between a browser and a server.
+
+Example:
+You type www.google.com → Browser sends an HTTP request → Google sends the webpage.
+
+HTTP Methods (Most Important)
+1. GET
+
+Work: Retrieve (Read) data.
+
+Example:
+Open Instagram posts.
+
+2. POST
+
+Work: Send new data to the server.
+
+Example:
+Register a new account.
+
+3. PUT
+
+Work: Update the entire data.
+
+Example:
+Update your complete profile.
+
+4. DELETE
+
+Work: Delete data.
+
+Example:
+Delete a photo from Instagram.
+
+Easy Trick
+Method	Work
+GET	Read Data
+POST	Add Data
+PUT	Update Data
+DELETE	Delete Data
+HTTP Status Codes
+Code	Meaning
+200	OK (Success)
+201	Created
+301	Redirect
+400	Bad Request
+401	Unauthorized
+403	Forbidden
+404	Page Not Found
+500	Internal Server Error
+Easy Memory
+2xx → Success ✅
+3xx → Redirect ↪️
+4xx → Client Error ❌
+5xx → Server Error ⚠️
+Cookies
+
+Definition
+
+Cookies are small files stored in your browser to remember information.
+
+Example:
+
+You log in to Gmail.
+
+Close the browser.
+
+Open it again.
+
+Still logged in.
+
+That's because of cookies.
+
+⭐ Interview Questions
+What is HTTP?
+Difference between GET and POST?
+Difference between PUT and POST?
+What is a 404 Error?
+What are Cookies?
+📝 One-Page Revision
+HTTP → Open websites
+GET → Read
+POST → Add
+PUT → Update
+DELETE → Delete
+200 → Success
+404 → Page Not Found
+500 → Server Error
+Cookies → Store user information
+📘 Module 12: DNS (Domain Name System)
+
+⭐ Interview Importance: ⭐⭐⭐⭐⭐
+
+What is DNS?
+
+DNS converts a website name into an IP Address.
+
+Example
+
+You type
+
+google.com
+
+DNS converts it to
+
+142.xxx.xxx.xxx
+
+Now the browser can connect to Google's server.
+
+Why do we need DNS?
+
+Humans remember:
+
+google.com
+
+Computers understand:
+
+IP Address
+
+DNS acts like a phonebook.
+
+DNS Process
+You type google.com
+
+↓
+
+DNS finds its IP Address
+
+↓
+
+Browser connects to Google Server
+
+↓
+
+Google webpage opens
+⭐ Interview Definition
+
+DNS is a protocol that converts domain names into IP addresses.
+
+Interview Questions
+What is DNS?
+Why do we need DNS?
+What is the work of DNS?
+📝 One-Page Revision
+DNS = Domain Name System
+Converts Domain → IP Address
+Port = 53
+Example: google.com → IP Address
+📘 Module 13: DHCP (Dynamic Host Configuration Protocol)
+
+⭐ Interview Importance: ⭐⭐⭐⭐☆
+
+What is DHCP?
+
+DHCP automatically gives an IP Address to a device when it connects to a network.
+
+Example
+
+You connect your phone to Wi-Fi.
+
+Within a few seconds,
+
+your phone gets:
+
+IP Address
+Gateway
+DNS
+
+automatically.
+
+You don't enter anything manually.
+
+Why do we need DHCP?
+
+Without DHCP,
+
+you would have to manually enter an IP Address for every device.
+
+With DHCP,
+
+everything happens automatically.
+
+Main Work
+Assign IP Address
+Assign Subnet Mask
+Assign Default Gateway
+Assign DNS Server
+⭐ Interview Definition
+
+DHCP is a protocol that automatically assigns IP addresses and other network settings to devices.
+
+Interview Questions
+What is DHCP?
+Why do we use DHCP?
+What does DHCP assign?
+📝 One-Page Revision
+DHCP = Dynamic Host Configuration Protocol
+Automatically assigns IP Address
+Also assigns:
+Gateway
+DNS
+Subnet Mask
+No manual IP configuration required
+🚀 Final 30-Second Revision
+Module	Remember
+11 (HTTP)	GET = Read, POST = Add, PUT = Update, DELETE = Delete, 200 = Success, 404 = Not Found
+12 (DNS)	Domain Name → IP Address, Port 53
+13 (DHCP)	Automatically assigns IP Address, Gateway, DNS, Subnet Mask
+⭐ Most Asked Placement Questions
+What is HTTP?
+Difference between GET and POST?
+What is a 404 error?
+What are Cookies?
+What is DNS?
+Why do we need DNS?
+What is DHCP?
+What does DHCP assign?
+Which port does DNS use? → 53
+Which HTTP method is used to fetch data? → GET
