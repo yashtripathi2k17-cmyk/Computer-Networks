@@ -1,0 +1,420 @@
+1. TCP vs UDP ⭐⭐⭐⭐⭐
+Simple Definition
+TCP (Transmission Control Protocol)
+TCP is a reliable protocol. It checks whether all data reaches the destination correctly.
+
+UDP (User Datagram Protocol)
+UDP is a fast protocol. It sends data without checking whether every packet reaches the destination.
+
+Real-Life Example
+
+TCP
+Sending money through online banking.
+Every detail must reach correctly.
+
+UDP
+Video call.
+If one frame is lost, the call still continues.
+
+Difference
+TCP   	UDP
+Reliable	Fast
+Connection-Oriented  	Connectionless
+Uses ACK	     No ACK
+Data arrives in order	   Order not guaranteed
+Banking, Email   	Gaming, Streaming
+Interview Answer
+TCP is a reliable protocol that guarantees data delivery, whereas UDP is a faster protocol that does not guarantee delivery.
+
+MCQ Facts
+TCP → Reliable
+UDP → Fast
+TCP → Three-Way Handshake
+UDP → No Handshake
+
+--------------------------------
+2. Hub vs Switch ⭐⭐⭐⭐⭐
+Simple Definition
+Hub
+Hub sends data to every connected device.
+
+Switch
+Switch sends data only to the correct device using the destination MAC address.
+
+Example
+
+4 computers are connected.
+
+PC A wants to send data to PC C.
+
+Hub:
+
+A → Hub → B ❌
+         → C ✅
+         → D ❌
+
+Switch:
+
+A → Switch → C ✅
+Difference
+Hub	Switch
+Layer 1	Layer 2
+Sends to all	Sends to correct device
+Slow	Faster
+Less secure	More secure
+Interview Answer
+
+A hub broadcasts data to all devices, whereas a switch forwards data only to the intended device using MAC addresses.
+
+MCQ Facts
+
+Hub → Physical Layer
+Switch → Data Link Layer
+Switch → MAC Address
+MCQ Facts
+TCP → Reliable
+UDP → Fast
+TCP → Three-Way Handshake
+UDP → No Handshake
+------------------------------------
+3. Switch vs Router ⭐⭐⭐⭐⭐
+Simple Definition
+Switch
+Connects devices inside the same network.
+
+Router
+Connects different networks.
+
+Example
+
+Home Wi-Fi
+Laptop
+↓
+Switch
+↓
+Router
+↓
+Internet
+
+Difference
+Switch    	Router
+Same Network	Different Networks
+Uses MAC   	Uses IP
+Layer 2	   Layer 3
+Interview Answer
+
+A switch connects devices within a LAN using MAC addresses, while a router connects different networks using IP addresses.
+
+MCQ Facts
+
+Switch → MAC
+
+Router → IP
+----------------------------------------
+4. Router vs Gateway
+Simple Definition
+Router
+
+Finds the best path between networks.
+
+Gateway
+
+Acts as the entry or exit point of a network and can also translate between different protocols or systems.
+
+Example
+
+Internet
+
+↓
+
+Gateway
+
+↓
+
+Company Network
+
+Difference
+Router	Gateway
+Connects Networks	Entry/Exit Point; may translate protocols
+Uses Routing	Can translate between different systems/protocols
+Interview Answer
+
+A router forwards packets between networks, while a gateway connects different networks or systems and can translate between different communication protocols.
+----------------------------------------
+5. HTTP vs HTTPS ⭐⭐⭐⭐⭐
+Simple Definition
+HTTP
+
+Opens websites.
+
+Not secure.
+
+HTTPS
+
+Secure version of HTTP.
+
+Encrypts data.
+
+Difference
+HTTP	HTTPS
+Not Secure	Secure
+Port 80	Port 443
+No Encryption	Encryption
+Interview Answer
+
+HTTP transfers web pages without encryption, whereas HTTPS encrypts the communication using TLS, making it secure.
+
+MCQ Facts
+
+HTTP → 80
+
+HTTPS → 443
+-------------------------------
+6. FTP vs HTTP
+Simple Definition
+FTP
+
+Used for transferring files.
+
+HTTP
+
+Used for opening websites.
+
+Difference
+FTP	HTTP
+File Transfer	Web Pages
+Port 21	Port 80
+Interview Answer
+
+FTP is used for transferring files, whereas HTTP is used for transferring web pages between a browser and a web server.
+-------------------------------
+7. IPv4 vs IPv6 ⭐⭐⭐⭐⭐
+Simple Definition
+IPv4
+
+Old version.
+
+32-bit address.
+
+IPv6
+
+New version.
+
+128-bit address.
+
+Difference
+IPv4	IPv6
+32 bits	128 bits
+Limited addresses	Huge number of addresses
+Older	Newer
+Interview Answer
+
+IPv4 is a 32-bit addressing scheme, while IPv6 is a 128-bit addressing scheme introduced to overcome IPv4 address exhaustion.
+
+MCQ Facts
+
+IPv4 → 32 Bits
+
+IPv6 → 128 Bits
+---------------------------------------
+8. MAC vs IP ⭐⭐⭐⭐⭐
+Simple Definition
+
+MAC Address
+Identifies a device on the local network.
+
+IP Address
+Identifies where the device is on a network.
+
+Difference
+MAC	IP
+Physical Address	Logical Address
+Layer 2	Layer 3
+Switch Uses	Router Uses
+Interview Answer
+
+A MAC address identifies a device on the local network, while an IP address identifies the device's location for communication across networks.
+---------------------------------
+9. Public IP vs Private IP
+Simple Definition
+Public IP
+
+Used on the Internet.
+
+Assigned by ISP.
+
+Private IP
+
+Used inside homes, offices, and schools.
+
+Difference
+Public	Private
+Internet	Local Network
+Assigned by ISP	Assigned by Router
+Interview Answer
+
+A public IP is globally reachable on the Internet, while a private IP is used only inside local networks.
+-------------------------------------------------
+10. Static IP vs Dynamic IP
+Simple Definition
+Static IP
+
+Never changes.
+
+Dynamic IP
+
+Changes automatically.
+
+Difference
+Static	Dynamic
+Fixed	Changes
+Manual	DHCP
+Interview Answer
+
+A static IP remains the same, whereas a dynamic IP is assigned automatically by DHCP and can change over time.
+--------------------------------------------
+11. Cookies vs Sessions
+Simple Definition
+Cookies
+
+Stored in the browser.
+
+Sessions
+
+Stored on the server.
+
+Example
+
+Login to Gmail.
+
+Cookies remember your login in the browser.
+
+The server maintains the session while you're logged in.
+
+Difference
+Cookies	Sessions
+Browser	Server
+Less Secure	More Secure
+Can persist after browser closes	Usually ends after logout or timeout
+Interview Answer
+
+Cookies store user information on the browser, while sessions store user information on the server.
+12. Client-Server vs Peer-to-Peer
+Simple Definition
+Client-Server
+
+One server provides services.
+
+Peer-to-Peer
+
+Every computer can both send and receive data.
+
+Difference
+Client-Server	Peer-to-Peer
+Central Server	No Central Server
+Easy Management	Harder Management
+Interview Answer
+
+In the client-server model, clients communicate with a central server. In peer-to-peer, devices communicate directly with each other.
+
+13. OSI vs TCP/IP ⭐⭐⭐⭐⭐
+Simple Definition
+OSI
+
+Learning model.
+
+7 Layers.
+
+TCP/IP
+
+Practical model.
+
+4 Layers.
+
+Difference
+OSI	TCP/IP
+7 Layers	4 Layers
+Reference Model	Internet Model
+Interview Answer
+
+OSI is a 7-layer reference model used to understand networking, while TCP/IP is the practical model used for communication on the Internet.
+
+14. Packet vs Frame ⭐⭐⭐⭐
+Simple Definition
+Packet
+
+Data at the Network Layer.
+
+Uses IP Address.
+
+Frame
+
+Data at the Data Link Layer.
+
+Uses MAC Address.
+
+Difference
+Packet	Frame
+Layer 3	Layer 2
+IP Address	MAC Address
+Interview Answer
+
+A packet is the data unit of the Network Layer, while a frame is the data unit of the Data Link Layer.
+
+15. Bandwidth vs Throughput ⭐⭐⭐⭐
+Simple Definition
+Bandwidth
+
+Maximum capacity of the network.
+
+Throughput
+
+Actual speed achieved.
+
+Example
+
+Internet Plan
+
+100 Mbps
+
+Actual Download
+
+80 Mbps
+
+Bandwidth = 100
+
+Throughput = 80
+
+Difference
+Bandwidth	Throughput
+Maximum Capacity	Actual Speed
+Theoretical	Practical
+Interview Answer
+
+Bandwidth is the maximum capacity of a network, while throughput is the actual amount of data successfully transferred.
+
+16. Flow Control vs Congestion Control ⭐⭐⭐⭐
+Simple Definition
+Flow Control
+
+Protects the receiver from receiving data faster than it can process.
+
+Congestion Control
+
+Protects the network from too much traffic.
+
+Example
+
+Flow Control:
+A fast sender sends data to a slow receiver, so the sender slows down.
+
+Congestion Control:
+Many users send data at the same time, causing traffic on the network. The sending rate is reduced to avoid overload.
+
+Difference
+Flow Control	Congestion Control
+Protects Receiver	Protects Network
+Between Sender & Receiver	Across the Whole Network
+Interview Answer
+
+Flow control prevents the sender from overwhelming the receiver, whereas congestion control prevents excessive traffic from overloading the network.
