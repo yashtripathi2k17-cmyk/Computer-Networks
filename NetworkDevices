@@ -554,6 +554,68 @@ Bridge Layer	2
 Repeater Layer	1
 Router Uses	IP Address
 Switch Uses	MAC Address
+
+1. Why is a Switch faster than a Hub?
+
+Answer:
+
+A Switch sends data only to the destination device, while a Hub sends data to all devices, reducing unnecessary traffic.
+
+2. Why does a Router use IP addresses instead of MAC addresses?
+
+Answer:
+
+Because a Router connects different networks, and IP addresses identify devices across networks. MAC addresses work only within the same local network.
+
+3. Can a Switch connect different networks?
+
+Answer:
+
+No. A normal Switch connects devices within the same LAN. A Router is used to connect different networks.
+
+4. Why is a Repeater needed in long-distance communication?
+
+Answer:
+
+Because signals become weak over long distances. A Repeater regenerates the signal to extend communication.
+
+5. What happens if a Router fails?
+
+Answer:
+
+Devices in the local network can still communicate with each other, but they cannot access other networks or the Internet.
+
+6. Can the Internet work without a Modem at home?
+
+Answer:
+
+No. A Modem is needed to connect your home network to the ISP (Internet Service Provider).
+
+7. Which device is commonly used in offices: Hub or Switch?
+
+Answer:
+
+Switch, because it is faster, more secure, and sends data only to the correct device.
+
+8. Why is a Gateway called a protocol converter?
+
+Answer:
+
+Because it can translate different communication protocols, allowing different types of networks or systems to communicate.
+
+9. Which device is responsible for sharing the Internet connection?
+
+Answer:
+
+Router, because it shares the Internet connection among multiple devices in the network.
+
+10. Why is a Hub rarely used today?
+
+Answer:
+
+Because it is slow, less secure, and sends data to all devices, causing unnecessary network traffic.
+
+🚀 30-Second Revision
 Cheapest Device	Hub
 Most Used in LAN	Switch
 Signal Booster	Repeater
