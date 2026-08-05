@@ -1,0 +1,560 @@
+What are Network Devices?
+Simple Definition
+
+Network Devices are hardware devices that help computers communicate with each other.
+
+Easy Definition
+
+Network devices are the equipment used to connect computers and transfer data.
+
+Why do we need Network Devices?
+
+Without network devices:
+
+❌ No Internet
+❌ No Wi-Fi
+❌ No File Sharing
+❌ No Communication
+
+They help in:
+
+Connecting devices
+Sending data
+Finding the best path
+Sharing the Internet
+Types of Network Devices
+
+The most important devices are:
+
+1. Hub
+2. Switch
+3. Router
+4. Bridge
+5. Repeater
+6. Gateway
+7. Modem
+
+
+
+--------------------------
+1. Hub
+Definition
+
+A Hub is a device that connects multiple computers in a LAN.
+
+It sends data to every connected computer.
+
+How does it work?
+
+Suppose:
+
+Computer A wants to send data to Computer C.
+
+Hub sends data to:
+
+A → Hub → B ❌
+         → C ✅
+         → D ❌
+
+Everyone receives it.
+
+Only C accepts it.
+
+Real-Life Example
+
+Teacher announces something in class.
+
+Every student hears it.
+
+Advantages
+Cheap
+Easy to install
+Disadvantages
+Slow
+Less secure
+Wastes bandwidth
+Interview Answer
+
+A Hub is a Physical Layer device that sends incoming data to all connected devices.
+
+Important Points
+
+✔ Layer 1
+
+✔ Broadcasts data
+
+✔ No MAC Address
+----------------------------------------
+2-----Switch ⭐⭐⭐⭐⭐
+
+Most Important Device
+
+Definition
+
+A Switch connects computers in a LAN.
+It sends data only to the correct device.
+
+How does it work?
+
+Suppose
+
+Computer A wants to send data to Computer C.
+
+A → Switch → C
+
+Only C receives it.
+
+How does it know?
+
+Switch stores MAC Addresses in a MAC Table.
+
+Example
+
+MAC Address	Port
+A	1
+B	2
+C	3
+
+Switch checks:
+
+Destination = C
+
+↓
+
+Send through Port 3
+
+Real-Life Example
+
+Courier Boy
+
+He delivers the parcel only to the correct house.
+
+Advantages
+Fast
+Secure
+No unnecessary traffic
+Disadvantages
+Costlier than Hub
+Interview Answer
+
+A Switch is a Data Link Layer device that forwards data only to the destination device using MAC addresses.
+
+Important Points
+
+✔ Layer 2
+
+✔ Uses MAC Address
+
+✔ Most used in offices
+
+-----------------------------------------------
+3-------Router ⭐⭐⭐⭐⭐
+Definition
+
+A Router connects different networks.
+It sends data using IP Address.
+
+Example
+Home Network
+
+↓
+
+Router
+
+↓
+
+Internet
+
+↓
+
+Google Server
+How does it work?
+
+Router checks
+
+Destination IP
+
+↓
+
+Finds Best Path
+
+↓
+
+Sends Data
+
+Real-Life Example
+
+Google Maps
+
+It finds the shortest route.
+
+Router also finds the best path.
+
+Advantages
+Connects Internet
+Connects different networks
+Fast routing
+
+------------------------------------------
+4. Bridge
+Definition
+
+A Bridge connects two LANs or two parts of the same LAN.
+
+Example
+
+Office
+
+↓
+
+Bridge
+
+↓
+
+Office Extension
+
+Work
+
+Filters traffic using MAC Address.
+
+Advantages
+Reduces unnecessary traffic
+Improves performance
+Interview Answer
+
+A Bridge is a Data Link Layer device that connects two LAN segments and filters data using MAC addresses.
+
+Important Points
+
+✔ Layer 2
+
+✔ Uses MAC
+
+✔ Connects LAN Segments
+
+
+7. Bridge
+Definition
+
+A Bridge connects two LAN segments and filters traffic using MAC addresses.
+
+LAN Segment A
+
+     ↓
+
+   Bridge
+
+     ↓
+
+LAN Segment B
+Main Points
+Works at Data Link Layer (Layer 2)
+Uses MAC addresses
+Connects LAN segments
+Filters network traffic
+
+Modern switches essentially perform multiport bridging, so standalone bridges are less common.
+
+Interview Answer
+
+A bridge is a Data Link Layer device that connects LAN segments and filters frames using MAC addresses.
+
+8. Bridge vs Switch
+
+They are similar because both work mainly at Layer 2.
+
+Bridge	Switch
+Usually fewer ports	Usually many ports
+Older technology	Modern/common technology
+Connects LAN segments	Connects many LAN devices
+Uses MAC addresses	Uses MAC addresses
+Easy Concept
+
+Think:
+
+Switch ≈ Multi-port Bridge
+
+-----------------------------------------------
+6. Repeater
+Definition
+
+A Repeater regenerates a weak/degraded signal so it can travel farther.
+
+Example
+
+Imagine a signal traveling a long distance:
+
+Strong signal → → Weak signal
+
+                    ↓
+
+                Repeater
+
+                    ↓
+
+             Regenerated signal
+Main Points
+Physical Layer (Layer 1)
+Regenerates signals
+Extends communication distance
+Doesn't perform routing
+Interview Answer
+
+A repeater is a Physical Layer device that regenerates signals to extend the transmission distance.
+--------------------------------------------------
+6. Gateway
+Definition
+
+A Gateway connects different types of networks and allows them to communicate.
+
+Example
+
+Company Network
+
+↓
+
+Gateway
+
+↓
+
+Internet
+
+Real-Life Example
+
+Translator
+
+English
+
+↓
+
+Translator
+
+↓
+
+Hindi
+
+Similarly,
+
+Gateway helps different systems communicate.
+
+Advantages
+Connects different networks
+Supports different protocols
+Interview Answer
+
+A Gateway connects different networks and enables communication between systems using different protocols.
+
+Important Points
+
+✔ Entry/Exit Point
+
+✔ Protocol Conversion
+
+7. Modem
+Full Form
+
+MOdulator DEModulator
+
+Definition
+
+A Modem connects your home network to your Internet Service Provider (ISP).
+
+Work
+
+Converts signals so data can travel over the ISP's communication line.
+
+Example
+ISP
+
+↓
+
+Modem
+
+↓
+
+Router
+
+↓
+
+Laptop
+Real-Life Example
+
+Without a modem,
+
+your router cannot access the Internet from your ISP connection.
+
+Interview Answer
+
+A Modem connects a user's network to the ISP by converting signals suitable for transmission.
+
+Important Points
+
+✔ Connects ISP
+
+✔ Internet Connection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------
+⭐ Comparison Table
+Device	Layer	Uses	Main Work
+Hub	Layer 1	Broadcast	Sends data to all devices
+Switch	Layer 2	MAC	Sends data to correct device
+Router	Layer 3	IP	Connects different networks
+Bridge	Layer 2	MAC	Connects LAN segments
+Repeater	Layer 1	Signal	Regenerates signal
+Gateway	Multiple	Protocol	Connects different systems/networks
+Modem	Physical connection	ISP	Connects to Internet
+⭐ Most Asked Interview Questions
+Q1. What is a Hub?
+
+Answer
+
+A Hub is a Layer 1 device that sends data to all connected devices.
+
+Q2. What is a Switch?
+
+Answer
+
+A Switch is a Layer 2 device that forwards data using MAC addresses.
+
+Q3. What is a Router?
+
+Answer
+
+A Router is a Layer 3 device that connects different networks using IP addresses.
+
+Q4. Difference between Hub and Switch?
+Hub	Switch
+Layer 1	Layer 2
+Sends to All	Sends to One
+Slow	Fast
+Q5. Difference between Switch and Router?
+Switch	Router
+Uses MAC	Uses IP
+Same Network	Different Networks
+Q6. Difference between Modem and Router?
+Modem	Router
+Connects ISP	Connects Networks
+Internet Access	Shares Internet
+Q7. Why is Switch better than Hub?
+
+Because it sends data only to the destination device, reducing unnecessary traffic and improving performance.
+
+Q8. Which device regenerates signals?
+
+Answer
+
+Repeater.
+
+Q9. Which device connects different networks?
+
+Answer
+
+Router.
+
+Q10. Which device uses MAC Address?
+
+Answer
+
+Switch and Bridge.
+
+⭐ Online Assessment Facts
+Question	Answer
+Hub Layer	1
+Switch Layer	2
+Router Layer	3
+Bridge Layer	2
+Repeater Layer	1
+Router Uses	IP Address
+Switch Uses	MAC Address
+Cheapest Device	Hub
+Most Used in LAN	Switch
+Signal Booster	Repeater
+Internet Connection	Modem
+Interview Answer
+
+A Router is a Network Layer device that forwards data between different networks using IP addresses.
+
+Important Points
+
+✔ Layer 3
+
+✔ Uses IP Address
+
+✔ Connects Networks
+
+
+Q4. Difference between Hub and Switch?
+Hub	Switch
+Layer 1	Layer 2
+Sends to All	Sends to One
+Slow	Fast
+Q5. Difference between Switch and Router?
+Switch	Router
+Uses MAC	Uses IP
+Same Network	Different Networks
+Q6. Difference between Modem and Router?
+Modem	Router
+Connects ISP	Connects Networks
+Internet Access	Shares Internet
+Q7. Why is Switch better than Hub?
+
+Because it sends data only to the destination device, reducing unnecessary traffic and improving performance.
+
+Q8. Which device regenerates signals?
+
+Answer
+
+Repeater.
+
+Q9. Which device connects different networks?
+
+Answer
+
+Router.
+
+Q10. Which device uses MAC Address?
+
+Answer
+
+Switch and Bridge.
+
+⭐ Online Assessment Facts
+Question	Answer
+Hub Layer	1
+Switch Layer	2
+Router Layer	3
+Bridge Layer	2
+Repeater Layer	1
+Router Uses	IP Address
+Switch Uses	MAC Address
+Cheapest Device	Hub
+Most Used in LAN	Switch
+Signal Booster	Repeater
+Internet Connection	Modem
