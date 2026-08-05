@@ -1,0 +1,245 @@
+📘 Cookies & Sessions – 2 Minute Revision Notes
+
+⭐ Placement Revision Notes
+
+🍪 Cookie
+Definition
+
+A Cookie is a small piece of data stored in the browser.
+
+Main Purpose
+Remember the user
+Store user preferences
+Keep the user logged in
+Stored In
+
+✅ Browser
+
+Stores
+Session ID
+Login Token
+Theme
+Language
+Shopping Cart
+Example
+
+Login to Amazon
+
+↓
+
+Cookie is stored
+
+↓
+
+Next time Amazon remembers you.
+
+🖥️ Session
+Definition
+
+A Session stores user information on the server.
+
+Main Purpose
+Maintain user login
+Store sensitive data securely
+Stored In
+
+✅ Server
+
+Stores
+User ID
+Username
+Role
+Login Status
+Example
+
+Login to Gmail
+
+↓
+
+Server creates Session
+
+↓
+
+Browser stores only Session ID
+
+↓
+
+Server identifies you.
+
+🔄 How Cookies & Sessions Work Together
+User Login
+      ↓
+Server verifies user
+      ↓
+Server creates Session
+      ↓
+Session ID generated
+      ↓
+Session ID stored in Cookie
+      ↓
+Browser sends Cookie
+      ↓
+Server finds Session
+      ↓
+User Logged In
+🍪 Cookie vs 🖥️ Session
+Cookie	Session
+Browser	Server
+Less Secure	More Secure
+Stores small data	Stores user data
+User can delete	Managed by server
+Around 4 KB	Depends on server memory
+⭐ Why Cookies?
+Remember Login
+Save Language
+Save Theme
+Save Shopping Cart
+⭐ Why Sessions?
+Secure Login
+Authentication
+Banking
+User Information
+⭐ Advantages
+Cookies
+
+✔ Faster Access
+
+✔ Remember User
+
+✔ Save Preferences
+
+Sessions
+
+✔ More Secure
+
+✔ Store Sensitive Data
+
+✔ Better Authentication
+
+⭐ Disadvantages
+Cookies
+
+❌ Less Secure
+
+❌ Can be deleted
+
+❌ Small storage
+
+Sessions
+
+❌ Uses Server Memory
+
+❌ Expires after timeout
+
+⭐ Most Asked Interview Questions
+What is a Cookie?
+
+A Cookie is a small piece of data stored in the browser to remember the user.
+
+What is a Session?
+
+A Session stores user information on the server to maintain login.
+
+Where are Cookies stored?
+
+✅ Browser
+
+Where are Sessions stored?
+
+✅ Server
+
+Which is more secure?
+
+✅ Session
+
+Reason:
+Sensitive data stays on the server.
+
+What is Session ID?
+
+A Session ID is a unique ID that connects the browser to the user's session stored on the server.
+
+Why do websites use Cookies?
+
+To remember users and save preferences.
+
+Why do websites use Sessions?
+
+To securely manage logged-in users.
+
+Can Cookies be deleted?
+
+✅ Yes
+
+What happens if Cookies are deleted?
+
+The user may need to log in again.
+
+What happens if Session expires?
+
+The user is logged out.
+
+Can Sessions work without Cookies?
+
+Usually No.
+
+Tricky Interview Questions ⭐⭐⭐⭐⭐
+Q1. Can Cookies store Password?
+
+Answer
+
+Technically they can store text, but passwords should never be stored in cookies. Instead, websites store secure tokens or session IDs.
+
+Q2. Can one user have multiple Sessions?
+
+Answer
+
+Yes.
+
+For example,
+
+Login from
+
+Laptop
+Mobile
+
+creates separate sessions.
+
+Q3. Can Cookies be stolen?
+
+Answer
+
+Yes.
+
+That's why websites use HTTPS, Secure cookies, and HttpOnly cookies.
+
+Q4. Which is faster?
+
+Answer
+
+Cookies are quicker to access because they are stored in the browser, but sessions are preferred for storing sensitive information.
+
+Q5. Which one is better?
+
+Answer
+
+Neither is always "better."
+
+Cookies are good for preferences and remembering users.
+Sessions are better for storing sensitive authentication data.
+⭐ Online Assessment Facts
+Cookies	Sessions
+Browser	Server
+Less Secure	More Secure
+Can be deleted by user	Managed by server
+Stores preferences/token/session ID	Stores user data
+Around 4 KB per cookie	Depends on server resources
+📝 30-Second Revision
+Cookie → Small data stored in the browser.
+Session → User data stored on the server.
+Cookie remembers the user.
+Session securely stores login information.
+Browser usually stores the Session ID inside a cookie.
+Cookies = Browser, Sessions = Server.
+Sessions are generally more secure because se
+The browser normally stores the Session ID inside a Cookie.
